@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 1rem 0 0.5rem;
+}
+
+.section__form {
+  width: 600px;
+  height: 100vh;
+  background: #ccc;
+}
+.section__form form {
+  display: flex;
+  flex-direction: column;
+}
+.section__form form label {
+  text-align: center;
+  margin: 0 auto 0.5rem;
+  font-size: 1.05rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bbb;
+  width: 360px;
+}
+.section__form form label input {
+  height: 28px;
+  width: 260px;
+  margin: 0.2rem 0 0.5rem;
+  font-size: 1rem;
+}
+.section__form form input[type=submit] {
+  width: 120px;
+  height: 35px;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.section__result {
+  background: #118ab2;
+  width: 100%;
+}
+.section__result .result {
+  margin: 2rem auto 0;
+  width: 450px;
+}
+.section__result .result li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #0e5b75;
+  height: 30px;
+  margin: 1rem 0 0;
+}
+.section__result .result .key {
+  font-weight: bold;
+  color: #e5e5ee;
+  text-transform: capitalize;
+}
+.section__result .result .key::after {
+  content: ":";
+}
+.section__result .result .value {
+  font-style: italic;
+  font-weight: bold;
+  color: #333;
+}
+.section__result .result .btn-delete {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  background: #e54;
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.section__result .result .btn-delete:hover {
+  background: #f06a5b;
+}
+
+/*# sourceMappingURL=style.css.map */

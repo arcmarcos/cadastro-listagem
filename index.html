@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Helpper</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="section__form">
+      <form class="form">
+        <h2 class="title">Cadastro de clientes</h2>
+          <label for="nome">Nome:
+            <input type="text" name="nome" id="nome" required>
+          </label>
+          <label for="email">E-mail:
+            <input type="email" name="email" id="email" required>
+          </label>
+          <label for="cpf">CPF / CNPJ:
+            <input type="text" name="cpf" id="cpf" required>
+          </label>
+          <label for="telefone">Telefone:
+            <input type="text" name="telefone" id="telefone" required>
+          </label>
+        <label for="cep">CEP:
+          <input type="text" name="cep" id="cep" required>
+        </label>
+        <label for="logradouro">Logradouro:
+          <input type="text" name="logradouro" id="logradouro" required>
+        </label>
+        <label for="numero">Numero:
+          <input type="text" name="numero" id="numero" required>
+        </label>
+        <label for="bairro">Bairro:
+          <input type="text" name="bairro" id="bairro" required>
+        </label>
+        <label for="cidade">Cidade:
+          <input type="text" name="cidade" id="cidade" required>
+        </label>
+        <label for="estado">Estado:
+          <input type="text" name="estado" id="estado" required>
+        </label>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+    
+    <section class="section__result">
+      <h2>Resultado</h2>
+        <div class="result"></div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
