@@ -8,11 +8,6 @@
 body {
   display: flex;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    flex-direction: column;
-  }
-}
 
 h2, h3 {
   text-align: center;
